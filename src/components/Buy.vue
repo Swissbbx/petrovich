@@ -20,7 +20,7 @@
         <span class="stepper-arrow up" @click="amount++"></span>
         <span
           class="stepper-arrow down"
-          @click="amount > 0 ? amount-- : amount"
+          @click="amount > 1 ? amount-- : amount"
         ></span>
       </div>
 
